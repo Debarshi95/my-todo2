@@ -1,0 +1,34 @@
+.todo__item {
+  border-bottom: 1.4px solid #b8b8b8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.todo__title {
+  width: 60%;
+  font-weight: 400;
+}
+.todo__loading {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo__noPosts {
+  min-height: 60vh;
+  text-align: center;
+}
+
+.todo__btnDelete {
+  text-transform: capitalize !important;
+}
+
+.todo__text--marked {
+  text-decoration: line-through;
+}
+
+.todo__btnDelete--success {
+  color: green !important;
+}

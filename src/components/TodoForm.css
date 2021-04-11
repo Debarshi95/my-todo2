@@ -1,0 +1,18 @@
+.todoForm__root {
+  display: flex;
+  margin: 1rem 0;
+  flex-direction: column;
+}
+
+.todoForm__input {
+  margin-right: 1rem;
+}
+
+.todoForm__btnAdd {
+  width: 100%;
+  margin: 1rem 0 !important;
+  align-self: center;
+}
+.todoForm__error {
+  color: rgb(212, 9, 9);
+}
